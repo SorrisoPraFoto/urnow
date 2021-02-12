@@ -4,6 +4,72 @@ body {
 }
 
 .container {
-    width: 85%;
-    height: 85%;
+    width: 90vw;
+    height: 90vh;
+    background-color: rgb(3, 3, 34);
+    border-radius: 28px;
+    margin-top: 4.9vh;
+}
+
+.title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.urna-title {
+    color: rgb(247, 250, 255);
+    font-size: 84px;
+    margin-top: 90px;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-success {
+    background-color: rgb(0, 146, 0);
+    border: darkgreen;
+    transition: 0.4s;
+}
+
+.btn-success:hover {
+    background-color: rgb(45, 175, 45);
+    transform: scale(1.2);
+}
+
+#btn-inicie-agora {
+    padding: 15px 42px;
+    font-size: 32px;
+    margin-top: 200px;
+}
+
+.input-group {
+    margin-top: 400px;
+    width: 62%;
+    height: 60px;
+}
+
+.input-voto:focus {
+    box-shadow: none !important;
+    border: unset;
+}
+
+.btn-votar {
+    margin-left: 20px;
+    width: 200px;
+}
+
+.branco-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.btn-light {
+    padding: 16px 40px;
+    margin-right: 20px;
 }
